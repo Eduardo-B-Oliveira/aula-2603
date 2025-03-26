@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #6744ce;
+  color: white;
+  position: relative;
+  width: 700px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo da segunda barra de navegação (fixa na parte inferior da tela) */
+.navbar-second {
+  background-color: #444;
+  padding: 5px 20px;
+  position: fixed; /* Fixar na parte inferior da tela */
+  bottom: 0; /* Fica na parte inferior */
+  width: 400px; /* Ocupa toda a largura da tela */
+  z-index: 1000; /* Garante que fique acima do conteúdo da página */
+}
+
+.navbar-links-second {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-links-second li {
+  margin-left: 20px;
+}
+
+.navbar-links-second a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-links-second a:hover {
+  text-decoration: underline;
+}
